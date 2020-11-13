@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files
+!/.gitignore
+!/README.md
+
+# Default Configuration
+!extensions.txt
+!settings.json

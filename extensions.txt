@@ -1,0 +1,5 @@
+dracula-theme.theme-dracula
+ms-python.python
+ms-toolsai.jupyter
+octref.vetur
+prkns.purrp-vscode
