@@ -1,5 +1,12 @@
 {
     "window.zoomLevel": 1,
     "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "Purrp"
+    "workbench.colorTheme": "Purrp",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.fontFamily": "Cascadia Code",
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
 }
