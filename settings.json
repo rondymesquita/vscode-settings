@@ -4,7 +4,7 @@
     "workbench.colorTheme": "Dracula",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "editor.fontFamily": "Cascadia Code",
+    "editor.fontFamily": "Fira Code",
     "files.insertFinalNewline": true,
     "files.eol": "\n",
     "files.trimFinalNewlines": true,
@@ -13,5 +13,5 @@
     "javascript.suggest.enabled": false,
     "typescript.suggest.enabled": false,
     "workbench.sideBar.location": "left",
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": true
 }
