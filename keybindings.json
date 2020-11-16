@@ -19,5 +19,13 @@
         "key": "shift+alt+down",
         "command": "-editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+1",
+        "command": "workbench.action.editorLayoutSingle"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "workbench.action.editorLayoutTwoColumns"
     }
 ]
