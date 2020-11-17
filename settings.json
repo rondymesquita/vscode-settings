@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 1,
     "editor.mouseWheelZoom": true,
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Omni",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "editor.fontFamily": "Fira Code",
@@ -13,5 +13,8 @@
     "javascript.suggest.enabled": false,
     "typescript.suggest.enabled": false,
     "workbench.sideBar.location": "left",
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
+    "files.associations": {
+        ".env": "shellscript"
+    }
 }

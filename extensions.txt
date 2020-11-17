@@ -1,5 +1,9 @@
+dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
+esbenp.prettier-vscode
 ms-python.python
 ms-toolsai.jupyter
 octref.vetur
 prkns.purrp-vscode
+rocketseat.theme-omni
+TomiTurtiainen.rf-intellisense
