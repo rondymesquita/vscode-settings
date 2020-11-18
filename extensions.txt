@@ -4,6 +4,7 @@ esbenp.prettier-vscode
 ms-python.python
 ms-toolsai.jupyter
 octref.vetur
+PKief.material-icon-theme
 prkns.purrp-vscode
 rocketseat.theme-omni
 TomiTurtiainen.rf-intellisense

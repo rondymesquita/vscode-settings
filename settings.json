@@ -16,5 +16,6 @@
     "workbench.activityBar.visible": true,
     "files.associations": {
         ".env": "shellscript"
-    }
+    },
+    "workbench.iconTheme": "material-icon-theme"
 }
