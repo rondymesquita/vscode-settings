@@ -1,10 +1,13 @@
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
 esbenp.prettier-vscode
+mathiasfrohlich.Kotlin
 ms-python.python
 ms-toolsai.jupyter
+naumovs.color-highlight
 octref.vetur
 PKief.material-icon-theme
 prkns.purrp-vscode
 rocketseat.theme-omni
+shd101wyy.markdown-preview-enhanced
 TomiTurtiainen.rf-intellisense
