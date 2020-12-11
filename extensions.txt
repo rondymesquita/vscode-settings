@@ -1,5 +1,7 @@
+cssho.vscode-svgviewer
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
+eamodio.gitlens
 esbenp.prettier-vscode
 mathiasfrohlich.Kotlin
 ms-python.python
@@ -8,6 +10,8 @@ naumovs.color-highlight
 octref.vetur
 PKief.material-icon-theme
 prkns.purrp-vscode
+redhat.vscode-xml
 rocketseat.theme-omni
 shd101wyy.markdown-preview-enhanced
+smulyono.reveal
 TomiTurtiainen.rf-intellisense
