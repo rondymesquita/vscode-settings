@@ -1,3 +1,5 @@
+adpyke.codesnap
+CoenraadS.bracket-pair-colorizer-2
 cssho.vscode-svgviewer
 dannyconnell.make-apps-theme
 dbaeumer.vscode-eslint
@@ -5,6 +7,7 @@ dracula-theme.theme-dracula
 eamodio.gitlens
 erole-attack.motion-haleness
 esbenp.prettier-vscode
+formulahendry.auto-close-tag
 kisstkondoros.vscode-codemetrics
 lihui.vs-color-picker
 mathiasfrohlich.Kotlin
@@ -17,7 +20,10 @@ PKief.material-icon-theme
 rchesnokov.serenity-theme
 redhat.vscode-xml
 rocketseat.theme-omni
+roydukkey.theme-chimera
+sdras.inbedby7pm
 shd101wyy.markdown-preview-enhanced
 SimonSiefke.svg-preview
 smulyono.reveal
+Themer.theme-themer-vscode
 TomiTurtiainen.rf-intellisense
