@@ -28,11 +28,10 @@ git reset --hard origin/main
 ## Extensions
 ### Export
 ```bash
-code --list-extensions > extensions.txt
+code --list-extensions > extensions
 ```
 
 ### Import
 ```bash
-cat extensions.txt | xargs -n1 code --install-extension $1
+cat extensions | xargs -n1 code --install-extension $1
 ```
-
