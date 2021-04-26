@@ -16,6 +16,11 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
+		"key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+	{
     "key": "shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
@@ -27,5 +32,27 @@
   {
     "key": "ctrl+shift+2",
     "command": "workbench.action.editorLayoutTwoColumns"
-  }
+  },
+	{
+		"key": "ctrl+k ctrl+c",
+		"command": "workbench.action.toggleCenteredLayout"
+	},
+	{
+		"key": "ctrl+k ctrl+r",
+		"command": "workbench.files.action.showActiveFileInExplorer"
+	},
+	{
+		"key": "ctrl+k ctrl+a",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	}
+	{
+		"key": "ctrl+shift+g",
+		"command": "-workbench.view.scm",
+		"when": "workbench.scm.active"
+	},
+	{
+		"key": "ctrl+shift+g",
+		"command": "workbench.view.scm",
+		"when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+	}
 ]

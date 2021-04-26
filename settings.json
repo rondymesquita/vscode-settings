@@ -6,12 +6,10 @@
   "editor.fontFamily": "Fira Code Retina",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "window.menuBarVisibility": "visible",
+	"files.trimTrailingWhitespace": true,
   "javascript.suggest.enabled": false,
   "typescript.suggest.enabled": false,
-  "workbench.sideBar.location": "left",
-  "workbench.activityBar.visible": true,
+	"workbench.sideBar.location": "left",
   "files.associations": {
     ".env": "shellscript",
     "*.env": "properties"
@@ -48,5 +46,9 @@
 	},
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"explorer.openEditors.visible": 0,
+	"workbench.editor.tabCloseButton": "off",
+	"workbench.statusBar.visible": true,
+	"breadcrumbs.enabled": true
 }
