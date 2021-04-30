@@ -6,13 +6,16 @@ dannyconnell.make-apps-theme
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
 eamodio.gitlens
+EditorConfig.EditorConfig
 enkia.tokyo-night
 erole-attack.motion-haleness
 esbenp.prettier-vscode
 formulahendry.auto-close-tag
+jpoissonnier.vscode-styled-components
 kisstkondoros.vscode-codemetrics
 lihui.vs-color-picker
 mathiasfrohlich.Kotlin
+mrmlnc.vscode-duplicate
 ms-python.python
 ms-toolsai.jupyter
 naumovs.color-highlight
