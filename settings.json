@@ -50,5 +50,6 @@
 	"explorer.openEditors.visible": 0,
 	"workbench.editor.tabCloseButton": "off",
 	"workbench.statusBar.visible": true,
-	"breadcrumbs.enabled": true
+	"breadcrumbs.enabled": true,
+	"editor.formatOnSave": true
 }
