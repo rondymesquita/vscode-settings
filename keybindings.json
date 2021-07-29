@@ -54,5 +54,13 @@
 		"key": "ctrl+shift+g",
 		"command": "workbench.view.scm",
 		"when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+	},
+  {
+		"key": "ctrl+shift+c",
+		"command": "workbench.files.action.collapseExplorerFolders"
+	},
+  {
+		"key": "ctrl+b",
+		"command": "workbench.action.toggleSidebarVisibility"
 	}
 ]

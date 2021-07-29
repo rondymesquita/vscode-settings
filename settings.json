@@ -19,7 +19,7 @@
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -36,10 +36,8 @@
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-	"window.zoomLevel": 1,
-  "editor.insertSpaces": false,
-	"editor.detectIndentation": false,
+	},
+	"editor.insertSpaces": false,
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -51,5 +49,17 @@
 	"workbench.editor.tabCloseButton": "off",
 	"workbench.statusBar.visible": true,
 	"breadcrumbs.enabled": true,
-	"editor.formatOnSave": true
+	"workbench.colorCustomizations": {
+    "editor.selectionBackground": "#641352",
+    "editor.wordHighlightBackground": "#12748a",
+    "editor.selectionHighlightBackground": "#135564"
+	},
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter.notebook.ipynb"
+	},
+  "editor.accessibilitySupport": "off",
+  "files.eol": "\n",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1
 }
