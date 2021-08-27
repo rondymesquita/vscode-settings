@@ -1,9 +1,8 @@
 {
   "editor.mouseWheelZoom": true,
-  "workbench.colorTheme": "Chimera+",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "Inconsolata Medium",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
@@ -18,12 +17,6 @@
   "editor.fontLigatures": true,
   "extensions.ignoreRecommendations": false,
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.minimap.enabled": false,
@@ -31,20 +24,8 @@
     "showWindowControls": false,
     "realLineNumbers": true
   },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
 	"editor.insertSpaces": false,
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
 	"explorer.openEditors.visible": 0,
 	"workbench.editor.tabCloseButton": "off",
 	"workbench.statusBar.visible": true,
@@ -60,6 +41,11 @@
   "editor.accessibilitySupport": "off",
   "files.eol": "\n",
   "explorer.confirmDelete": false,
-  "editor.formatOnSave": true,
+  "markdown-preview-enhanced.liveUpdate": true,
+  "workbench.colorTheme": "Amethyst Dark",
+  "debug.console.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
   "window.zoomLevel": 1
 }
