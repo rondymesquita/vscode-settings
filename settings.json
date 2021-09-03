@@ -47,5 +47,8 @@
   "terminal.integrated.fontSize": 16,
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
