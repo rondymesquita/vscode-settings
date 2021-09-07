@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cat extensions | xargs -n1 code --install-extension $1
+cat extensions | xargs -L 1 echo code --install-extension $1
