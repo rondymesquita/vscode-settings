@@ -41,7 +41,7 @@
   "files.eol": "\n",
   "explorer.confirmDelete": false,
   "markdown-preview-enhanced.liveUpdate": true,
-  "workbench.colorTheme": "Chimera+",
+  "workbench.colorTheme": "A Touch of Lilac Theme (No Italics)",
   "debug.console.fontSize": 15,
   "terminal.integrated.fontSize": 16,
   "eslint.alwaysShowStatus": true,
@@ -51,5 +51,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.compactFolders": false
 }
