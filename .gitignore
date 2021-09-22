@@ -4,10 +4,10 @@
 # But not these files
 !/.gitignore
 !/README.md
-!/export.sh
-!/import.sh
+!/export.js
+!/import.js
 
 # Default Configuration
-!extensions
+!extensions.json
 !settings.json
 !keybindings.json
