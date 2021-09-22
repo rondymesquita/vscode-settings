@@ -28,10 +28,10 @@ git reset --hard origin/main
 ## Extensions
 ### Export
 ```bash
-code --list-extensions > extensions
+node import.js
 ```
 
 ### Import
 ```bash
-cat extensions | xargs -n1 code --install-extension $1
+node export.js
 ```
