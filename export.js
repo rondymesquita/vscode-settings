@@ -1,13 +1,9 @@
 const { writeFileSync } = require('fs')
-const { exec } = require("child_process");
-const { promisify } = require('util');
-const shell = promisify(exec)
+const { list } = require('./util');
 
-const cmd = "code --list-extensions"
-
-console.log("ℹ️ Exporting extensions...");
-shell(cmd).then(({stdout}) => {
-	const extensions = stdout.trim().split("\n")
+(async function (){
+	console.log("ℹ️ Exporting extensions...");
+	const extensions = await list()
 	writeFileSync('extensions.json', JSON.stringify(extensions, null, 2))
 	console.log("✔️ Extensions exported successfully!");
-})
+})()

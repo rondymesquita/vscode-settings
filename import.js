@@ -1,28 +1,64 @@
 const { existsSync, readFileSync } = require('fs')
-const { exec } = require("child_process");
-const { promisify } = require('util');
-const shell = promisify(exec)
+const rl = require("readline");
+const { install, uninstall, list } = require('./util');
 
-const EXTENSIONS_FILE = "./extensions.json"
+const readline = rl.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
-console.log("ℹ️ Importing extensions...");
-
-const exists = existsSync(EXTENSIONS_FILE)
-if (!exists) {
-	console.log("❗The 'extensions.json' file does not exist. Exiting.");
-	return
+function question(query) {
+	return new Promise(resolve => {
+			readline.question(query, resolve);
+	})
 }
 
-const extensions = JSON.parse(readFileSync(EXTENSIONS_FILE).toString());
 
 (async function (){
-	for (let extension of extensions) {
-		console.log(`ℹ️ Installing ${extension}`);
-		const cmd = `code --install-extension ${extension}`
-		const { stdout } = await shell(cmd)
-		console.log(stdout);
-		console.log();
-	}
-})()
+	console.log("ℹ️ Importing extensions...");
+	const EXTENSIONS_FILE = "./extensions.json"
 
-console.log("✔️ Extensions installed!");
+	const exists = existsSync(EXTENSIONS_FILE)
+	if (!exists) {
+		console.log(`❗The ${EXTENSIONS_FILE} file does not exist. Exiting.`);
+		return
+	}
+
+	const extensions = JSON.parse(readFileSync(EXTENSIONS_FILE).toString());
+
+	const installedExtensions = await list()
+
+	const extensionsToUninstall = installedExtensions.filter((e) => {
+		return !extensions.includes(e)
+	})
+
+	const extensionsToInstall = extensions.filter((e) => {
+		return !installedExtensions.includes(e)
+	})
+
+	const alreadyInstalled = installedExtensions.filter((e) => {
+		return extensions.includes(e)
+	})
+
+	if (extensionsToUninstall.length) {
+		console.log(extensionsToUninstall);
+		const resp = await question("Above extensions will be uninstalled. Proceed? [y/n]: ")
+
+		if (resp === "y") {
+			await uninstall(extensionsToUninstall)
+			console.log("✔️ Extensions uninstalled!");
+		}
+	}
+
+	if (!extensionsToInstall.length) {
+		console.log("✔️ Nothing to install. Extensions updated!");
+	} else {
+		await install(extensionsToInstall)
+		console.log("✔️ Extensions updated!");
+	}
+
+	readline.close()
+	readline.on("close", function() {
+    process.exit(0);
+	});
+})()
