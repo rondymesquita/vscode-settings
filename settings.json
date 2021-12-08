@@ -11,7 +11,7 @@
 	"workbench.sideBar.location": "left",
   "files.associations": {
     ".env": "shellscript",
-    "*.env": "properties"
+    "*.env": "shellscript"
   },
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontLigatures": true,
@@ -32,7 +32,8 @@
 	"workbench.colorCustomizations": {
     "editor.selectionBackground": "#641352",
     "editor.wordHighlightBackground": "#12748a",
-    "editor.selectionHighlightBackground": "#135564"
+    "editor.selectionHighlightBackground": "#135564",
+    "list.inactiveSelectionBackground": "#135564"
 	},
 	"workbench.editorAssociations": {
 		"*.ipynb": "jupyter.notebook.ipynb"
@@ -42,8 +43,8 @@
   "explorer.confirmDelete": false,
   "markdown-preview-enhanced.liveUpdate": true,
   "workbench.colorTheme": "A Touch of Lilac Theme",
-  "debug.console.fontSize": 15,
-  "terminal.integrated.fontSize": 16,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "[typescript]": {
@@ -52,5 +53,7 @@
   "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "explorer.compactFolders": false,
+  "quokka.showCodeLensInOutputChannel": false,
+  "editor.formatOnSave": true,
   "window.zoomLevel": 1
 }
