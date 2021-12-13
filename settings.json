@@ -59,5 +59,6 @@
   "explorer.compactFolders": false,
   "quokka.showCodeLensInOutputChannel": false,
   "editor.formatOnSave": true,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Night Owl"
 }
