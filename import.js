@@ -3,18 +3,18 @@ const rl = require("readline");
 const { install, uninstall, list } = require('./util');
 
 const readline = rl.createInterface({
-    input: process.stdin,
-    output: process.stdout
+	input: process.stdin,
+	output: process.stdout
 });
 
 function question(query) {
 	return new Promise(resolve => {
-			readline.question(query, resolve);
+		readline.question(query, resolve);
 	})
 }
 
 
-(async function (){
+(async function () {
 	console.log("ℹ️ Importing extensions...");
 	const EXTENSIONS_FILE = "./extensions.json"
 
@@ -40,7 +40,7 @@ function question(query) {
 		return extensions.includes(e)
 	})
 
-	if (extensionsToUninstall.length) {
+	if (extensionsToUninstall.length && extensionsToUninstall.length > 0) {
 		console.log(extensionsToUninstall);
 		const resp = await question("Above extensions will be uninstalled. Proceed? [y/n]: ")
 
@@ -58,7 +58,7 @@ function question(query) {
 	}
 
 	readline.close()
-	readline.on("close", function() {
-    process.exit(0);
+	readline.on("close", function () {
+		process.exit(0);
 	});
 })()
