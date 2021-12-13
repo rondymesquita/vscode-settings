@@ -21,11 +21,11 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-		"key": "shift+alt+down",
+    "key": "shift+alt+down",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
-	{
+  {
     "key": "shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
@@ -35,7 +35,7 @@
     "command": "workbench.action.editorLayoutSingle"
   },
   {
-    "key": "cmd+shift+1",//MAC
+    "key": "cmd+shift+1", //MAC
     "command": "workbench.action.editorLayoutSingle"
   },
   {
@@ -43,49 +43,54 @@
     "command": "workbench.action.editorLayoutTwoColumns"
   },
   {
-    "key": "cmd+shift+2",//MAC
+    "key": "cmd+shift+2", //MAC
     "command": "workbench.action.editorLayoutTwoColumns"
   },
-	{
-		"key": "ctrl+k ctrl+c",
-		"command": "workbench.action.toggleCenteredLayout"
-	},
   {
-		"key": "cmd+k cmd+c",//MAC
-		"command": "workbench.action.toggleCenteredLayout"
-	},
-	{
-		"key": "ctrl+k ctrl+r",
-		"command": "workbench.files.action.showActiveFileInExplorer"
-	},
-	{
-		"key": "ctrl+k ctrl+a",
-		"command": "workbench.action.toggleActivityBarVisibility"
-	}
-	{
-		"key": "ctrl+shift+g",
-		"command": "-workbench.view.scm",
-		"when": "workbench.scm.active"
-	},
-	{
-		"key": "ctrl+shift+g",
-		"command": "workbench.view.scm",
-		"when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
-	},
+    "key": "ctrl+k ctrl+c",
+    "command": "workbench.action.toggleCenteredLayout"
+  },
   {
-		"key": "ctrl+shift+c",
-		"command": "workbench.files.action.collapseExplorerFolders"
-	},
+    "key": "cmd+k cmd+c", //MAC
+    "command": "workbench.action.toggleCenteredLayout"
+  },
   {
-		"key": "cmd+shift+c",//MAC
-		"command": "workbench.files.action.collapseExplorerFolders"
-	},
+    "key": "ctrl+k ctrl+r",
+    "command": "workbench.files.action.showActiveFileInExplorer"
+  },
   {
-		"key": "ctrl+b",
-		"command": "workbench.action.toggleSidebarVisibility"
-	},
+    "key": "ctrl+k ctrl+a",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  }
+	{
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
   {
-		"key": "cmd+b",//MAC
-		"command": "workbench.action.toggleSidebarVisibility"
-	}
+    "key": "ctrl+shift+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "cmd+shift+c", //MAC
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b", //MAC
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  }
 ]
