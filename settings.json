@@ -1,22 +1,22 @@
 {
+  "explorer.autoReveal": true,
   "editor.mouseWheelZoom": true,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   "editor.fontFamily": "Operator Mono",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggestOnTriggerCharacters": true,
   "editor.quickSuggestions": {
-    "other": false,
-    "comments": false,
-    "strings": false
+    "other": true,
+    "comments": true,
+    "strings": true
   },
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": true,
   "workbench.sideBar.location": "left",
   "files.associations": {
-    ".env": "shellscript",
-    "*.env": "shellscript"
+    ".env": "properties",
+    "*.env": "properties"
   },
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontLigatures": true,
@@ -24,10 +24,8 @@
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.minimap.enabled": false,
-  "codesnap": {
-    "showWindowControls": false,
-    "realLineNumbers": true
-  },
+  "codesnap.showWindowControls": false,
+  "codesnap.realLineNumbers": true,
   "editor.insertSpaces": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.openEditors.visible": 0,
@@ -46,7 +44,6 @@
   "editor.accessibilitySupport": "off",
   "files.eol": "\n",
   "explorer.confirmDelete": false,
-  "markdown-preview-enhanced.liveUpdate": true,
   "debug.console.fontSize": 14,
   "terminal.integrated.fontSize": 14,
   "eslint.alwaysShowStatus": true,

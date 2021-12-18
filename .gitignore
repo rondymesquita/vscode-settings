@@ -6,6 +6,8 @@
 !/README.md
 !/export.js
 !/import.js
+!/reset.js
+!/util.js
 
 # Default Configuration
 !extensions.json
