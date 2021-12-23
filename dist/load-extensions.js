@@ -10,7 +10,7 @@ function get(resource) {
 
 window.onload = async function () {
 
-		const extensions = await get('../extensions.json')
+		const extensions = await get('./extensions.json')
 		console.log(extensions);
 
 		const extensionsInfo = await get('./result.json')
