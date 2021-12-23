@@ -10,6 +10,8 @@
 !/fetch-extensions-info.js
 !/util.js
 !./dist/*
+!/package.json
+!/package-lock.json
 
 # Default Configuration
 !extensions.json

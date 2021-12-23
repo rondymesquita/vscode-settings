@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "npm"
       - run: node fetch-extensions-info.js
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
