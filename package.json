@@ -7,7 +7,7 @@
     "url": "git+https://github.com/rondymesquita/vscode-settings.git"
   },
   "scripts": {
-    "build": "cp extensions.json ../dist && node-fetch-extensions-info.js"
+    "build": "cp extensions.json ../dist && node fetch-extensions-info.js"
   },
   "keywords": [],
   "author": "",
