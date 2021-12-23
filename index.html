@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		main {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.title {
+			text-align: center;
+		}
+
+
+		.extension {
+			display: flex;
+			padding: 6px;
+			margin-bottom: 6px;
+		}
+
+		.description {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.description-info {
+			font-weight: bold;
+		}
+
+		.description-meta {
+			color: #555;
+			font-size: 15px;;
+		}
+
+		.description-link {
+			font-size: 15px;
+		}
+
+		.icon {
+			width: 35px;
+			height: 35px;
+			margin-right: 12px
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1 class='title'>Extensions</h1>
+		<code id='code'></code>
+		<div id='extensions'></div>
+	</main>
+		<script src='./result.json'></script>
+		<script src='./load-extensions.js'></script>
+</body>
+</html>
