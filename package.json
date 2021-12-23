@@ -1,0 +1,16 @@
+{
+  "name": "vscode-extensions",
+  "version": "1.0.0",
+  "description": "My custom vscode extensions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rondymesquita/vscode-settings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rondymesquita/vscode-settings/issues"
+  },
+  "homepage": "https://github.com/rondymesquita/vscode-settings#readme"
+}
