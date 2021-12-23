@@ -9,7 +9,7 @@
 !/reset.js
 !/fetch-extensions-info.js
 !/util.js
-!./src/*
+!./dist/*
 
 # Default Configuration
 !extensions.json
