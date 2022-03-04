@@ -29,7 +29,7 @@ function question(query) {
 	const installedExtensions = await list()
 
 	const extensionsToUninstall = installedExtensions.filter((e) => {
-		return !extensions.includes(e)
+		return !extensions.includes(e) && !!e
 	})
 
 	const extensionsToInstall = extensions.filter((e) => {
