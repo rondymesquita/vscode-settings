@@ -4,7 +4,7 @@
   "explorer.autoReveal": true,
   "editor.mouseWheelZoom": true,
   "telemetry.telemetryLevel": "off",
-  "editor.fontFamily": "Operator Mono",
+  "editor.fontFamily": "Roboto Mono",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -58,12 +58,14 @@
   "explorer.compactFolders": false,
   "quokka.showCodeLensInOutputChannel": false,
   "editor.formatOnSave": true,
-  "window.zoomLevel": 1,
   "mermaid-editor.generate.type": "png",
   "quokka.compactMessageOutput": true,
   "prettier.enable": false,
   "material-icon-theme.saturation": 1,
   "material-icon-theme.activeIconPack": "angular",
   "slidev.enabled": true,
-  "workbench.colorTheme": "Chimera+"
+  "workbench.colorTheme": "Chimera+",
+  "window.zoomLevel": 1,
+  "editor.letterSpacing": -0.2,
+  "terminal.integrated.letterSpacing": -0.1
 }
