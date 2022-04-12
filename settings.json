@@ -4,7 +4,7 @@
   "explorer.autoReveal": true,
   "editor.mouseWheelZoom": true,
   "telemetry.telemetryLevel": "off",
-  "editor.fontFamily": "Roboto Mono",
+  "editor.fontFamily": "Dank Mono",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -35,10 +35,10 @@
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": true,
   "workbench.colorCustomizations": {
-    "editor.selectionBackground": "#641352",
-    "editor.wordHighlightBackground": "#12748a",
-    "editor.selectionHighlightBackground": "#135564",
-    "list.inactiveSelectionBackground": "#135564"
+    // "editor.selectionBackground": "#641352",
+    // "editor.wordHighlightBackground": "#12748a",
+    // "editor.selectionHighlightBackground": "#135564",
+    // "list.inactiveSelectionBackground": "#135564"
   },
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
@@ -51,7 +51,7 @@
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
   "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -64,8 +64,9 @@
   "material-icon-theme.saturation": 1,
   "material-icon-theme.activeIconPack": "angular",
   "slidev.enabled": true,
-  "workbench.colorTheme": "Chimera+",
   "window.zoomLevel": 1,
-  "editor.letterSpacing": -0.2,
-  "terminal.integrated.letterSpacing": -0.1
+  "editor.letterSpacing": -0.3,
+  "terminal.integrated.letterSpacing": -0.1,
+  "editor.linkedEditing": true,
+  "workbench.colorTheme": "Night Owl"
 }

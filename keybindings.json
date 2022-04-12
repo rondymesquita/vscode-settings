@@ -61,8 +61,8 @@
   {
     "key": "ctrl+k ctrl+a",
     "command": "workbench.action.toggleActivityBarVisibility"
-  }
-	{
+  },
+  {
     "key": "ctrl+shift+g",
     "command": "-workbench.view.scm",
     "when": "workbench.scm.active"
@@ -92,5 +92,19 @@
     "key": "ctrl+space",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.linkedEditing",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+f2",
+    "command": "-editor.action.linkedEditing",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.selectToBracket"
   }
 ]
