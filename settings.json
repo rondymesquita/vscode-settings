@@ -18,14 +18,14 @@
   "workbench.sideBar.location": "left",
   "files.associations": {
     ".env": "properties",
-    "*.env": "properties"
+    "*.env": "properties",
+    "*.tsx": "typescriptreact"
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "eq-material-theme-icons-light",
   "editor.fontLigatures": true,
   "extensions.ignoreRecommendations": false,
   "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.minimap.enabled": false,
   "codesnap.showWindowControls": false,
   "codesnap.realLineNumbers": true,
   "editor.insertSpaces": false,
@@ -57,16 +57,23 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "explorer.compactFolders": false,
   "quokka.showCodeLensInOutputChannel": false,
-  "editor.formatOnSave": true,
   "mermaid-editor.generate.type": "png",
   "quokka.compactMessageOutput": true,
   "prettier.enable": false,
   "material-icon-theme.saturation": 1,
   "material-icon-theme.activeIconPack": "angular",
   "slidev.enabled": true,
-  "window.zoomLevel": 1,
   "editor.letterSpacing": -0.3,
   "terminal.integrated.letterSpacing": -0.1,
   "editor.linkedEditing": true,
-  "workbench.colorTheme": "Night Owl"
+  "editor.minimap.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "workbench.colorTheme": "Amethyst Dark",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.decorations.colors": false,
+  "autoimport.autoComplete": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "window.zoomLevel": 1
 }
