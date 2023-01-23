@@ -21,7 +21,7 @@
     "*.env": "properties",
     "*.tsx": "typescriptreact"
   },
-  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontLigatures": true,
   "extensions.ignoreRecommendations": false,
   "editor.tabSize": 2,
@@ -70,10 +70,13 @@
   "[javascript]": {
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
-  "workbench.colorTheme": "Amethyst Dark",
+  "workbench.colorTheme": "Dracula",
   "workbench.editor.decorations.badges": false,
   "workbench.editor.decorations.colors": false,
   "autoimport.autoComplete": false,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "window.zoomLevel": 1
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[json]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  }
 }
