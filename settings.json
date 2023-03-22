@@ -4,7 +4,7 @@
   "explorer.autoReveal": true,
   "editor.mouseWheelZoom": true,
   "telemetry.telemetryLevel": "off",
-  "editor.fontFamily": "Dank Mono",
+  "editor.fontFamily": "Cascadia Mono",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -15,7 +15,6 @@
     "strings": true
   },
   "editor.hover.enabled": true,
-  "workbench.sideBar.location": "left",
   "files.associations": {
     ".env": "properties",
     "*.env": "properties",
@@ -70,7 +69,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "GitHub Dark",
   "workbench.editor.decorations.badges": false,
   "workbench.editor.decorations.colors": false,
   "autoimport.autoComplete": false,
