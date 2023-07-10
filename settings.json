@@ -1,10 +1,12 @@
 {
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "explorer.autoReveal": true,
+  // "explorer.autoReveal": true,
   "editor.mouseWheelZoom": true,
   "telemetry.telemetryLevel": "off",
   "editor.fontFamily": "Cascadia Mono",
+  "customizeUI.font.regular": "Cascadia Mono",
+  "customizeUI.font.monospace": "Cascadia Mono",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -20,7 +22,6 @@
     "*.env": "properties",
     "*.tsx": "typescriptreact"
   },
-  "workbench.iconTheme": "material-icon-theme",
   "editor.fontLigatures": true,
   "extensions.ignoreRecommendations": false,
   "editor.tabSize": 2,
@@ -31,51 +32,60 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.openEditors.visible": 0,
   "workbench.editor.tabCloseButton": "off",
-  "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": true,
-  "workbench.colorCustomizations": {
-    // "editor.selectionBackground": "#641352",
-    // "editor.wordHighlightBackground": "#12748a",
-    // "editor.selectionHighlightBackground": "#135564",
-    // "list.inactiveSelectionBackground": "#135564"
-  },
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
+  "workbench.colorCustomizations": {},
+  // "workbench.editorAssociations": {
+  //   "*.ipynb": "jupyter.notebook.ipynb"
+  // },
   "editor.accessibilitySupport": "off",
   "files.eol": "\n",
   "explorer.confirmDelete": false,
-  "debug.console.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 12,
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  // },
   "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "explorer.compactFolders": false,
   "quokka.showCodeLensInOutputChannel": false,
   "mermaid-editor.generate.type": "png",
+  "mermaid-export.outputType": "pdf",
   "quokka.compactMessageOutput": true,
   "prettier.enable": false,
-  "material-icon-theme.saturation": 1,
-  "material-icon-theme.activeIconPack": "angular",
   "slidev.enabled": true,
   "editor.letterSpacing": -0.3,
   "terminal.integrated.letterSpacing": -0.1,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  },
-  "workbench.colorTheme": "GitHub Dark",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  // },
+  "workbench.colorTheme": "Night Owl",
   "workbench.editor.decorations.badges": false,
-  "workbench.editor.decorations.colors": false,
   "autoimport.autoComplete": false,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[json]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  }
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[json]": {
+  //   "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  // },
+  "editor.formatOnSave": true,
+  "prettier.documentSelectors": ["**/*.jsx", "**/*.json"],
+  "workbench.editor.decorations.colors": false,
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown-preview-enhanced.scrollSync": false,
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "[typescript]": {
+    "editor.defaultFormatter": "svipas.prettier-plus"
+  },
+  "workbench.iconTheme": "vscode-great-icons",
+  "autoDayNightThemeSwitcher.autoToggleTimeNightBegin": "12:00",
+  "autoDayNightThemeSwitcher.autoToggleTimeNightEnd": "7:00",
+  "autoDayNightThemeSwitcher.dayTheme": "Github Light",
+  "autoDayNightThemeSwitcher.nightTheme": "Github Dark",
+  "autoDayNightThemeSwitcher.dayThemeCustomizations": {},
+  "terminal.integrated.persistentSessionScrollback": 1000
 }

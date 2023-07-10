@@ -106,5 +106,13 @@
   {
     "key": "ctrl+shift+k",
     "command": "editor.action.selectToBracket"
-  }
+  },
+  {
+    "key": "ctrl+r",
+    "command": "editor.action.rename"
+  },
+  {
+    "key": "cmd+r", //MAC
+    "command": "editor.action.rename"
+  },
 ]
