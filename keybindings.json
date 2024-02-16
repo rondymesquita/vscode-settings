@@ -1,118 +1,144 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "alt+d",
     "command": "editor.action.deleteLines",
+    "key": "alt+d",
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+k",
     "command": "-editor.action.deleteLines",
+    "key": "ctrl+shift+k",
     "when": "textInputFocus && !editorReadonly"
   },
   {
+    "command": "editor.action.copyLinesDownAction",
     "key": "ctrl+shift+d",
-    "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
+    "command": "editor.action.copyLinesDownAction",
     "key": "cmd+shift+d", // MAC
-    "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "shift+alt+down",
     "command": "editor.action.copyLinesDownAction",
+    "key": "shift+alt+down",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
+    "key": "shift+alt+down",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+1",
-    "command": "workbench.action.editorLayoutSingle"
+    "command": "workbench.action.editorLayoutSingle",
+    "key": "ctrl+shift+1"
   },
   {
-    "key": "cmd+shift+1", //MAC
-    "command": "workbench.action.editorLayoutSingle"
+    "command": "workbench.action.editorLayoutSingle",
+    "key": "cmd+shift+1" //MAC
   },
   {
-    "key": "ctrl+shift+2",
-    "command": "workbench.action.editorLayoutTwoColumns"
+    "command": "workbench.action.editorLayoutTwoColumns",
+    "key": "ctrl+shift+2"
   },
   {
-    "key": "cmd+shift+2", //MAC
-    "command": "workbench.action.editorLayoutTwoColumns"
+    "command": "workbench.action.editorLayoutTwoColumns",
+    "key": "cmd+shift+2" //MAC
   },
   {
-    "key": "ctrl+k ctrl+c",
-    "command": "workbench.action.toggleCenteredLayout"
+    "command": "workbench.action.toggleCenteredLayout",
+    "key": "ctrl+k ctrl+c"
   },
   {
-    "key": "cmd+k cmd+c", //MAC
-    "command": "workbench.action.toggleCenteredLayout"
+    "command": "workbench.action.toggleCenteredLayout",
+    "key": "cmd+k cmd+c" //MAC
   },
   {
-    "key": "ctrl+k ctrl+r",
-    "command": "workbench.files.action.showActiveFileInExplorer"
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "key": "ctrl+k ctrl+r"
   },
   {
-    "key": "ctrl+k ctrl+a",
-    "command": "workbench.action.toggleActivityBarVisibility"
+    "command": "workbench.action.toggleActivityBarVisibility",
+    "key": "ctrl+k ctrl+a"
   },
   {
-    "key": "ctrl+shift+g",
     "command": "-workbench.view.scm",
+    "key": "ctrl+shift+g",
     "when": "workbench.scm.active"
   },
   {
-    "key": "ctrl+shift+g",
     "command": "workbench.view.scm",
+    "key": "ctrl+shift+g",
     "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
   },
   {
-    "key": "ctrl+shift+c",
-    "command": "workbench.files.action.collapseExplorerFolders"
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "key": "ctrl+shift+c"
   },
   {
-    "key": "cmd+shift+c", //MAC
-    "command": "workbench.files.action.collapseExplorerFolders"
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "key": "cmd+shift+c" //MAC
   },
   {
-    "key": "ctrl+b",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+b"
   },
   {
-    "key": "cmd+b", //MAC
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "cmd+b" //MAC
   },
   {
-    "key": "ctrl+space",
     "command": "editor.action.triggerSuggest",
+    "key": "ctrl+space",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+j",
     "command": "editor.action.linkedEditing",
+    "key": "ctrl+shift+j",
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+f2",
     "command": "-editor.action.linkedEditing",
+    "key": "ctrl+shift+f2",
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+k",
-    "command": "editor.action.selectToBracket"
+    "command": "editor.action.selectToBracket",
+    "key": "ctrl+shift+k"
   },
   {
-    "key": "ctrl+r",
-    "command": "editor.action.rename"
+    "command": "editor.action.rename",
+    "key": "ctrl+r"
   },
   {
-    "key": "cmd+r", //MAC
-    "command": "editor.action.rename"
+    "command": "editor.action.rename",
+    "key": "cmd+r" //MAC
   },
+  {
+    "args": "http://localhost:8080",
+    "command": "simpleBrowser.show",
+    "key": "ctrl+shift+l"
+  },
+  {
+    "args": "http://localhost:8080",
+    "command": "editor.action.rename",
+    "key": "cmd+shift+l" //MAC
+  },
+  {
+    "command": "workbench.action.moveEditorToNextGroup",
+    "key": "ctrl+shift+\\"
+  },
+  {
+    "command": "workbench.action.moveEditorToNextGroup",
+    "key": "cmd+shift+\\"
+  },
+  {
+    "command": "markdown-preview-enhanced.openPreviewToTheSide",
+    "key": "ctrl+shift+k"
+  },
+  {
+    "command": "markdown-preview-enhanced.openPreviewToTheSide",
+    "key": "cmd+shift+k"
+  }
 ]

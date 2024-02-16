@@ -1,91 +1,122 @@
 {
+  "[jsx-tags]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "autoDayNightThemeSwitcher.autoToggle": false,
+  "autoDayNightThemeSwitcher.dayTheme": "Moegi Light",
+  "autoDayNightThemeSwitcher.nightTheme": "Moegi Dark",
+  "autoimport.autoComplete": false,
+  "breadcrumbs.enabled": true,
+  "codesnap.realLineNumbers": true,
+  "codesnap.showWindowControls": false,
+  "debug.console.fontSize": 12,
+  "editor.accessibilitySupport": "off",
   "editor.bracketPairColorization.enabled": true,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
   "editor.guides.bracketPairs": "active",
-  // "explorer.autoReveal": true,
+  "editor.hover.enabled": true,
+  "editor.insertSpaces": false,
+  "editor.letterSpacing": -0.3,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
   "editor.mouseWheelZoom": true,
-  "telemetry.telemetryLevel": "off",
-  "editor.fontFamily": "Cascadia Mono",
-  "customizeUI.font.regular": "Cascadia Mono",
-  "customizeUI.font.monospace": "Cascadia Mono",
+  "editor.quickSuggestions": {
+    "comments": true,
+    "other": true,
+    "strings": true
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "eslint.format.enable": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.openEditors.visible": 1,
+  "extensions.ignoreRecommendations": false,
+  "files.associations": {
+    "*.env": "properties",
+    "*.tsx": "typescriptreact",
+    ".env": "properties"
+  },
+  "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "editor.suggestOnTriggerCharacters": true,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "scminput": false
   },
-  "editor.hover.enabled": true,
-  "files.associations": {
-    ".env": "properties",
-    "*.env": "properties",
-    "*.tsx": "typescriptreact"
-  },
-  "editor.fontLigatures": true,
-  "extensions.ignoreRecommendations": false,
-  "editor.tabSize": 2,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "codesnap.showWindowControls": false,
-  "codesnap.realLineNumbers": true,
-  "editor.insertSpaces": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "explorer.openEditors.visible": 0,
-  "workbench.editor.tabCloseButton": "off",
-  "breadcrumbs.enabled": true,
-  "workbench.colorCustomizations": {},
-  // "workbench.editorAssociations": {
-  //   "*.ipynb": "jupyter.notebook.ipynb"
-  // },
-  "editor.accessibilitySupport": "off",
-  "files.eol": "\n",
-  "explorer.confirmDelete": false,
-  "debug.console.fontSize": 12,
-  "terminal.integrated.fontSize": 12,
-  "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true,
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  // },
-  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "explorer.compactFolders": false,
-  "quokka.showCodeLensInOutputChannel": false,
-  "mermaid-editor.generate.type": "png",
-  "mermaid-export.outputType": "pdf",
-  "quokka.compactMessageOutput": true,
-  "prettier.enable": false,
-  "slidev.enabled": true,
-  "editor.letterSpacing": -0.3,
-  "terminal.integrated.letterSpacing": -0.1,
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  // },
-  "workbench.colorTheme": "Night Owl",
-  "workbench.editor.decorations.badges": false,
-  "autoimport.autoComplete": false,
-  "typescript.preferences.importModuleSpecifier": "relative",
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "[json]": {
-  //   "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  // },
-  "editor.formatOnSave": true,
-  "prettier.documentSelectors": ["**/*.jsx", "**/*.json"],
-  "workbench.editor.decorations.colors": false,
-  "markdown.preview.scrollPreviewWithEditor": false,
-  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown-preview-enhanced.codeBlockTheme": "default.css",
+  "markdown-preview-enhanced.mermaidTheme": "default",
+  "markdown-preview-enhanced.previewTheme": "atom-light.css",
+  "markdown-preview-enhanced.revealjsTheme": "none.css",
   "markdown-preview-enhanced.scrollSync": false,
-  "markdown-preview-enhanced.previewTheme": "github-light.css",
-  "[typescript]": {
-    "editor.defaultFormatter": "svipas.prettier-plus"
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.preview.scrollPreviewWithEditor": false,
+  "quokka.compactMessageOutput": true,
+  "quokka.showCodeLensInOutputChannel": false,
+  "security.restrictUNCAccess": false,
+  "slidev.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.windowsExec": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.toggleSidebarVisibility"
+  ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.letterSpacing": -0.1,
+  "terminal.integrated.persistentSessionScrollback": 1000,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vs-browser.url": "http://localhost:8080",
+  "vue.autoInsert.bracketSpacing": false,
+  "vue.autoInsert.parentheses": false,
+  "vue.codeActions.enabled": false,
+  "vue.codeLens.enabled": false,
+  "vue.complete.casing.status": false,
+  "vue.complete.normalizeComponentImportName": false,
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "Moegi Light",
+  "workbench.editor.decorations.badges": false,
+  "workbench.editor.decorations.colors": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.iconTheme": "symbols",
+  "workbench.preferredDarkColorTheme": "Moegi Dark",
+  "workbench.preferredLightColorTheme": "Moegi Light",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "debug.console.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "yaml.validate": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "workbench.iconTheme": "vscode-great-icons",
-  "autoDayNightThemeSwitcher.autoToggleTimeNightBegin": "12:00",
-  "autoDayNightThemeSwitcher.autoToggleTimeNightEnd": "7:00",
-  "autoDayNightThemeSwitcher.dayTheme": "Github Light",
-  "autoDayNightThemeSwitcher.nightTheme": "Github Dark",
-  "autoDayNightThemeSwitcher.dayThemeCustomizations": {},
-  "terminal.integrated.persistentSessionScrollback": 1000
+  "symbols.hidesExplorerArrows": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.labelFormat": "medium",
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "window.zoomLevel": 1
 }
