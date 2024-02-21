@@ -59,6 +59,14 @@
     "key": "ctrl+k ctrl+r"
   },
   {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+shift+e"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "cmd+shift+e"
+  },
+  {
     "command": "workbench.action.toggleActivityBarVisibility",
     "key": "ctrl+k ctrl+a"
   },
