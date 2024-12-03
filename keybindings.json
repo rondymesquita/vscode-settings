@@ -111,10 +111,10 @@
     "key": "ctrl+shift+f2",
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   },
-  {
-    "command": "editor.action.selectToBracket",
-    "key": "ctrl+shift+k"
-  },
+  // {
+  //   "command": "editor.action.selectToBracket",
+  //   "key": "ctrl+shift+k"
+  // },
   {
     "command": "editor.action.rename",
     "key": "ctrl+r"
@@ -130,7 +130,7 @@
   },
   {
     "args": "http://localhost:8080",
-    "command": "editor.action.rename",
+    "command": "simpleBrowser.show",
     "key": "cmd+shift+l" //MAC
   },
   {
@@ -141,12 +141,22 @@
     "command": "workbench.action.moveEditorToNextGroup",
     "key": "cmd+shift+\\"
   },
-  {
-    "command": "markdown-preview-enhanced.openPreviewToTheSide",
-    "key": "ctrl+shift+k"
-  },
+  // {
+  //   "command": "markdown-preview-enhanced.openPreviewToTheSide",
+  //   "key": "ctrl+shift+k"
+  // },
   {
     "command": "markdown-preview-enhanced.openPreviewToTheSide",
     "key": "cmd+shift+k"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.copySelection",
+    "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
   }
 ]

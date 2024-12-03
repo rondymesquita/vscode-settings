@@ -9,10 +9,11 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[vue]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
@@ -133,5 +134,6 @@
     "reloadButton": "↻",
     "loadNpmCommands": false
   },
-  "remote.autoForwardPortsSource": "hybrid"
+  "remote.autoForwardPortsSource": "hybrid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
