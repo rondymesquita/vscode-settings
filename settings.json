@@ -1,6 +1,6 @@
 {
   "[javascript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsx-tags]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
@@ -28,7 +28,7 @@
   "debug.console.fontFamily": "Cascadia Code",
   "debug.console.fontSize": 12,
   "editor.accessibilitySupport": "off",
-  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.enabled": false,
   "editor.emptySelectionClipboard": false,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
@@ -59,7 +59,7 @@
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.openEditors.visible": 1,
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": true,
   "files.associations": {
     "*.env": "properties",
     "*.tsx": "typescriptreact",
@@ -115,7 +115,7 @@
   "window.commandCenter": false,
   "window.zoomLevel": 0.3,
   "workbench.colorCustomizations": {},
-  "workbench.colorTheme": "Moegi Space",
+  "workbench.colorTheme": "KEVIN-DARK",
   "workbench.editor.decorations.badges": false,
   "workbench.editor.decorations.colors": false,
   "workbench.editor.labelFormat": "medium",
