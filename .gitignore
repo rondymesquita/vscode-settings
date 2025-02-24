@@ -12,6 +12,7 @@
 !./dist/*
 !/package.json
 !/package-lock.json
+!/tasks.nu
 
 # Default Configuration
 !extensions.json
