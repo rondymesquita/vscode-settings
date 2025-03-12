@@ -63,7 +63,9 @@
   "files.associations": {
     "*.env": "properties",
     "*.tsx": "typescriptreact",
-    ".env": "properties"
+    ".env": "properties",
+    "*.esproj": "xml",
+    "*.nu": "nushell"
   },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
@@ -77,9 +79,9 @@
   },
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "markdown-preview-enhanced.codeBlockTheme": "default.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
   "markdown-preview-enhanced.mermaidTheme": "default",
-  "markdown-preview-enhanced.previewTheme": "atom-light.css",
+  "markdown-preview-enhanced.previewTheme": "monokai.css",
   "markdown-preview-enhanced.revealjsTheme": "none.css",
   "markdown-preview-enhanced.scrollSync": false,
   "markdown.preview.scrollEditorWithPreview": false,
@@ -97,7 +99,7 @@
     "workbench.action.toggleSidebarVisibility",
     "workbench.files.action.focusFilesExplorer"
   ],
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "Nushell",
   "terminal.integrated.fontFamily": "Cascadia Code",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.letterSpacing": -0.1,
@@ -135,5 +137,11 @@
     "loadNpmCommands": false
   },
   "remote.autoForwardPortsSource": "hybrid",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  }
 }
