@@ -155,8 +155,12 @@
     "when": "!terminalFocus"
   },
   {
+    "command": "-editor.action.blockComment",
+    "key": "ctrl+ç"
+  },
+  {
     "key": "ctrl+shift+c",
-    "command": "-workbench.action.terminal.copySelection",
+    "command": "-comment",
     "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
   }
 ]

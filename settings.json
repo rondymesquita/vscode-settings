@@ -6,7 +6,7 @@
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -17,6 +17,9 @@
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[css, scss, less]": {
+    "editor.autoClosingComments": "always"
   },
   "autoDayNightThemeSwitcher.autoToggle": false,
   "autoDayNightThemeSwitcher.dayTheme": "Moegi Light",
@@ -79,11 +82,11 @@
   },
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "auto.css",
   "markdown-preview-enhanced.mermaidTheme": "default",
-  "markdown-preview-enhanced.previewTheme": "monokai.css",
-  "markdown-preview-enhanced.revealjsTheme": "none.css",
-  "markdown-preview-enhanced.scrollSync": false,
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "markdown-preview-enhanced.revealjsTheme": "night.css",
+  "markdown-preview-enhanced.scrollSync": true,
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
   "quokka.compactMessageOutput": true,
@@ -99,11 +102,12 @@
     "workbench.action.toggleSidebarVisibility",
     "workbench.files.action.focusFilesExplorer"
   ],
-  "terminal.integrated.defaultProfile.windows": "Nushell",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontFamily": "Cascadia Code",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.letterSpacing": -0.1,
   "terminal.integrated.persistentSessionScrollback": 1000,
+  "terminal.integrated.showExitAlert": false,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -116,15 +120,48 @@
   "vue.complete.normalizeComponentImportName": false,
   "window.commandCenter": false,
   "window.zoomLevel": 0.3,
-  "workbench.colorCustomizations": {},
-  "workbench.colorTheme": "KEVIN-DARK",
+  "workbench.colorCustomizations": {
+    "[Vira*]": {
+      "toolbar.activeBackground": "#80CBC426",
+      "activityBarBadge.background": "#80CBC4",
+      "activityBar.activeBorder": "#80CBC4",
+      "activityBarTop.activeBorder": "#80CBC4",
+      "list.inactiveSelectionIconForeground": "#80CBC4",
+      "list.activeSelectionForeground": "#80CBC4",
+      "list.inactiveSelectionForeground": "#80CBC4",
+      "list.highlightForeground": "#80CBC4",
+      "sash.hoverBorder": "#80CBC480",
+      "list.activeSelectionIconForeground": "#80CBC4",
+      "scrollbarSlider.activeBackground": "#80CBC480",
+      "editorSuggestWidget.highlightForeground": "#80CBC4",
+      "textLink.foreground": "#80CBC4",
+      "progressBar.background": "#80CBC4",
+      "pickerGroup.foreground": "#80CBC4",
+      "tab.activeBorder": "#80CBC4",
+      "notificationLink.foreground": "#80CBC4",
+      "editorWidget.resizeBorder": "#80CBC4",
+      "editorWidget.border": "#80CBC4",
+      "settings.modifiedItemIndicator": "#80CBC4",
+      "settings.headerForeground": "#80CBC4",
+      "panelTitle.activeBorder": "#80CBC4",
+      "breadcrumb.activeSelectionForeground": "#80CBC4",
+      "menu.selectionForeground": "#80CBC4",
+      "menubar.selectionForeground": "#80CBC4",
+      "editor.findMatchBorder": "#80CBC4",
+      "selection.background": "#80CBC440",
+      "statusBarItem.remoteBackground": "#80CBC4",
+      "notebook.inactiveFocusedCellBorder": "#80CBC480",
+      "commandCenter.activeBorder": "#80CBC480"
+    }
+  },
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
   "workbench.editor.decorations.badges": false,
   "workbench.editor.decorations.colors": false,
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.tabCloseButton": "off",
   "workbench.editor.tabSizing": "fixed",
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "workbench.preferredDarkColorTheme": "Moegi Dark",
   "workbench.preferredLightColorTheme": "Moegi Light",
@@ -143,5 +180,13 @@
   },
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
-  }
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "markdown-preview-enhanced.enablePreviewZenMode": false,
+  "editor.formatOnSave": true,
+  "dotnet.codeLens.enableReferencesCodeLens": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.advanced": {}
 }
