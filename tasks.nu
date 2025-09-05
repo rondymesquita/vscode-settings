@@ -17,7 +17,14 @@ def help [] {
 def install_ [extensions: list] {
 	print "Installing extensions..."
 	print $extensions
-	$extensions | each {|ext| code --install-extension $ext }
+	$extensions | each {|ext|
+		print $ext
+		try {
+			code --install-extension $ext
+		} catch {|err|
+			print $err
+		}
+	}
 	print "Extensions installed!"
 }
 
@@ -48,12 +55,14 @@ def exportExtensions []: nothing -> nothing {
 def importExtensions []: nothing -> nothing  {
 	print "ℹ️ Updating extensions..."
 	let extensions  = open $filename
+	print $extensions
 
 	let installedExtensions  = list_
+	print $installedExtensions
 
-	let extensionsToUninstall = $installedExtensions | filter {|e| $e not-in $extensions}
+	let extensionsToUninstall = $installedExtensions | where {|e| $e not-in $extensions}
 
-	let extensionsToInstall = $extensions | filter {|e| $e not-in $installedExtensions }
+	let extensionsToInstall = $extensions | where {|e| $e not-in $installedExtensions }
 
 	uninstall_ $extensionsToUninstall
 	install_ $extensionsToInstall
