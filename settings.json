@@ -44,18 +44,19 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.emptySelectionClipboard": false,
-  "editor.fontSize": 15,
-  "editor.fontFamily": "Inconsolata",
+  // "editor.fontFamily": "Cascadia Mono",
+  "editor.fontFamily": "Maple Mono Normal Medium",
   // "custom-ui-style.font.sansSerif": "Inconsolata",
-  "editor.fontWeight": "500",
   "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  // "editor.fontWeight": "600",
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.highlightActiveIndentation": false,
   "editor.guides.indentation": false,
   "editor.hover.enabled": true,
   "editor.insertSpaces": false,
-  "editor.letterSpacing": -0.3,
+  "editor.letterSpacing": -0.5,
   // "editor.lineHeight": 1.3,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
@@ -67,6 +68,11 @@
   },
   "editor.suggestOnTriggerCharacters": true,
   "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[Nord Dark Contrast Lighter]": {
+      "comments": "#6b7373"
+    }
+  },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -98,6 +104,13 @@
     "scminput": false
   },
   "github.copilot.nextEditSuggestions.enabled": true,
+  "helium-icon-theme.files.associations": {
+    "*.nu": "shell",
+    "fileName.ts": "angular"
+  },
+  "helium-icon-theme.folders.color": "#fdd835",
+  "helium-icon-theme.folders.theme": "classic",
+  "helium-icon-theme.hidesExplorerArrows": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "markdown-preview-enhanced.codeBlockTheme": "auto.css",
@@ -108,6 +121,13 @@
   "markdown-preview-enhanced.scrollSync": true,
   "markdown.preview.scrollEditorWithPreview": false,
   "markdown.preview.scrollPreviewWithEditor": false,
+  "material-icon-theme.files.associations": {
+    // "*.nu": "shell"
+  },
+  "material-icon-theme.folders.associations": {
+    // "*.nu": "shell"
+  },
+  "material-icon-theme.folders.theme": "classic",
   "material-icon-theme.hidesExplorerArrows": true,
   "nushellLanguageServer.includeDirs": [
     "C:\\Users\\alvaro_silva\\AppData\\Roaming\\nushell"
@@ -132,9 +152,10 @@
     "workbench.files.action.focusFilesExplorer"
   ],
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Inconsolata",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.letterSpacing": -0.1,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.letterSpacing": 0,
   "terminal.integrated.persistentSessionScrollback": 1000,
   "terminal.integrated.showExitAlert": false,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
@@ -151,51 +172,32 @@
   "window.commandCenter": false,
   "window.zoomLevel": 0.5,
   "workbench.colorCustomizations": {
-    "[Vira*]": {
-      "activityBar.activeBorder": "#80CBC4",
-      "activityBarBadge.background": "#80CBC4",
-      "activityBarTop.activeBorder": "#80CBC4",
-      "breadcrumb.activeSelectionForeground": "#80CBC4",
-      "commandCenter.activeBorder": "#80CBC480",
-      "editor.findMatchBorder": "#80CBC4",
-      "editorSuggestWidget.highlightForeground": "#80CBC4",
-      "editorWidget.border": "#80CBC4",
-      "editorWidget.resizeBorder": "#80CBC4",
-      "list.activeSelectionForeground": "#80CBC4",
-      "list.activeSelectionIconForeground": "#80CBC4",
-      "list.highlightForeground": "#80CBC4",
-      "list.inactiveSelectionForeground": "#80CBC4",
-      "list.inactiveSelectionIconForeground": "#80CBC4",
-      "menu.selectionForeground": "#80CBC4",
-      "menubar.selectionForeground": "#80CBC4",
-      "notebook.inactiveFocusedCellBorder": "#80CBC480",
-      "notificationLink.foreground": "#80CBC4",
-      "panelTitle.activeBorder": "#80CBC4",
-      "pickerGroup.foreground": "#80CBC4",
-      "progressBar.background": "#80CBC4",
-      "sash.hoverBorder": "#80CBC480",
-      "scrollbarSlider.activeBackground": "#80CBC480",
-      "selection.background": "#80CBC440",
-      "settings.headerForeground": "#80CBC4",
-      "settings.modifiedItemIndicator": "#80CBC4",
-      "statusBarItem.remoteBackground": "#80CBC4",
-      "tab.activeBorder": "#80CBC4",
-      "textLink.foreground": "#80CBC4",
-      "toolbar.activeBackground": "#80CBC426"
+    "[Dracula Theme Soft]": {
+      "activityBar.background": "#282a36",
+      "sideBar.background": "#282a36",
+      "statusBar.background": "#282a36",
+      "statusBarItem.prominentBackground": "#c7aaf0",
+      "statusBarItem.prominentForeground": "#282a36",
+      // "list.hoverForeground": "#c7aaf0",
+      // "list.inactiveFocusBackground": "#c7aaf0"
+      // "list.inactiveSelectionForeground": "#c7aaf0"
+      // "sideBar.foreground": "#8b92b9"
+      "tab.inactiveBackground": "#191a21"
     }
   },
+  "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.decorations.badges": false,
   "workbench.editor.decorations.colors": false,
-  "workbench.editor.labelFormat": "medium",
+  "workbench.editor.labelFormat": "default",
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.tabSizing": "fixed",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
   "workbench.preferredDarkColorTheme": "Moegi Dark",
   "workbench.preferredLightColorTheme": "Moegi Light",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "none",
-  "yaml.validate": true,
-  "workbench.colorTheme": "Dracula Theme Soft"
+  "yaml.validate": true
 }
